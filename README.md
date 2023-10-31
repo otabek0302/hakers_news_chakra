@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Integrate HN API with Chakra UI and React Context
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![HN API with Chakra UI](https://i.ibb.co/GVdS8nH/hk.png)
 
-## Available Scripts
+### [🌟 Chakra UI ](https://chakra-ui.com/)
+### [🌟 Hacker News ](https://hn.algolia.com/api)
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+In this commit, I've integrated the Hacker News (HN) API, which is built on top of Algolia Search's API, enabling developers to access HN data programmatically using a REST API. This documentation describes how to request data from the API and how to interpret the response.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Additionally, I've implemented Chakra UI for a modern and responsive user interface, providing a consistent and visually appealing design for our application. Chakra UI simplifies styling and theming, making it easier to create a polished user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To manage the state and data flow in the application, I've also incorporated React Context. This allows for efficient data sharing and global state management, improving the overall performance and maintainability of the project.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **REACT**: For structuring the web page.
+- **Chakra UI**: For styling and animations.
+- **Responsive Design**: Using media queries to ensure mobile responsiveness.
+- **Optimized Images**: To maintain performance and visual quality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Setup:
+- run ```npm i && npm start```
