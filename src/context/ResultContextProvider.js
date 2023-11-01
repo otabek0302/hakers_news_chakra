@@ -15,9 +15,9 @@ export const ResultContextProvider = ({ children }) => {
         const getResult = async () => {
             axios.get(`http://hn.algolia.com/api/v1/search?query=${search}&tags=${category}`).then((res) => {
                 if (res.status === 200) {
+                    setIsLoading(false);  
                     show ? setResults(res?.data?.hits) : setResults(res?.data?.hits.slice(0, 4))
                 }
-                setIsLoading(false);
             })
         }
         getResult()

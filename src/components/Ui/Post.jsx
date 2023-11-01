@@ -7,7 +7,7 @@ const Post = ({ title, created_at, url, author, story_title, story_url }) => {
     <WrapItem flex="49%" m="0px" boxShadow="sm">
       <Card bg="blackAlpha.800" borderColor="teal" border="2px" p="24px 16px" w="full" h="200px" justify="space-between" rounded="md">
         <CardHeader py="0">
-          <Heading size="md" color="white" noOfLines="1">{title || story_title}</Heading>
+            <Heading size="md" color="white" noOfLines="1">{title || story_title}</Heading>
         </CardHeader>
         <CardBody>
           <Badge p="1" variant="subtle" colorScheme='pink'>{author}</Badge>
