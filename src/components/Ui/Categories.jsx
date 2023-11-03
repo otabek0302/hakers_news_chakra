@@ -7,7 +7,7 @@ const Categories = () => {
   const { setCategory, isLoading } = useResultContext()
   return (
     <Box flex="1" color="white">
-      <Wrap spacing="4">
+      <Wrap spacing={{ base: "2", md: "2" }}>
         <Skeleton isLoaded={!isLoading}><WrapItem><Button onClick={() => setCategory("story")} colorScheme='white' borderColor="#7AB7AC" _hover={{ bg: "#7AB7AC", color: "white" }} variant="outline">Story</Button></WrapItem></Skeleton>
         <Skeleton isLoaded={!isLoading} ><WrapItem><Button onClick={() => setCategory("comment")} colorScheme='white' borderColor="#7AB7AC" _hover={{ bg: "#7AB7AC", color: "white" }} variant="outline">Comments</Button></WrapItem></Skeleton>
         <Skeleton isLoaded={!isLoading} ><WrapItem><Button onClick={() => setCategory("poll")} colorScheme='white' borderColor="#7AB7AC" _hover={{ bg: "#7AB7AC", color: "white" }} variant="outline">Poll</Button></WrapItem></Skeleton>

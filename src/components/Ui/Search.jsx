@@ -14,7 +14,7 @@ const Search = () => {
   }
 
   return (
-    <Box flex="1" color="white">
+    <Box flex="1" color="white" minW={{base: "full", md: "sm"}}>
       {
         isLoading ? (<Skeleton h="40px" w="full" />) : (
           <InputGroup borderColor="#7AB7AC">
